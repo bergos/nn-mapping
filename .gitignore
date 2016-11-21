@@ -1,0 +1,4 @@
+.idea
+coverage
+examples/data
+node_modules

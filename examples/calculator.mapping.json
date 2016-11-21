@@ -1,0 +1,61 @@
+{
+  "loop": [
+    {
+      "group": "input",
+      "property": "sequence",
+      "map": [
+        {
+          "group": "input",
+          "property": "operator",
+          "mapping": [
+            {
+              "equals": "begin",
+              "neuron": "input:begin",
+              "value": 1
+            },
+            {
+              "equals": "end",
+              "neuron": "input:end",
+              "value": 1
+            },
+            {
+              "equals": "plus",
+              "neuron": "input:operator/plus",
+              "value": 1
+            },
+            {
+              "equals": "minus",
+              "neuron": "input:operator/minus",
+              "value": 1
+            },
+            {
+              "equals": "multiply",
+              "neuron": "input:operator/multiply",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "group": "input",
+          "property": "number",
+          "mapping": [
+            {
+              "neuron": "input:number"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "map": [
+    {
+      "group": "output",
+      "property": "result",
+      "mapping": [
+        {
+          "neuron": "output:result"
+        }
+      ]
+    }
+  ]
+}
