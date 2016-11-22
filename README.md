@@ -1,6 +1,10 @@
 # nn-mapping
 
-Maps JSON objects to neural network ready objects.
+nn-mapping maps the given JSON objects to JSON structure which are more suitable for neural network processing.
+Neural networks need float values as input and output. 
+nn-mapping maps deep structures and non numeric values n dimensional float arrays and key value pairs.
+Key value pairs are used as abstraction layer for the model. 
+The mapping is done based on a JSON mapping definition.
 
 ## Usage
 
@@ -61,5 +65,5 @@ To run the examples switch to the example folder and run:
 
     ./calculator.sh
 
-keras-gaia is able to process the dataset.
-For further processing see the examples folder of keras-gaia. 
+[Keras Gaia](https://github.com/bergos/keras_gaia) is able to process the dataset.
+It also contains prepared example projects for the nn-mapping calculator example.
